@@ -1,0 +1,83 @@
+1505372575997	geckodriver	INFO	geckodriver 0.18.0
+1505372576008	geckodriver	INFO	Listening on 127.0.0.1:52608
+1505372578046	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505372578419	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505372579281	Marionette	INFO	Enabled via --marionette
+JavaScript warning: resource://addoninstaller/log4moz.js, line 489: Date.prototype.toLocaleFormat is deprecated; consider using Intl.DateTimeFormat instead
+1505372582256	addons.xpi	WARN	Add-on tabtweak@mozillaonline.com is not compatible with application version.
+1505372582258	addons.xpi	WARN	Add-on tabtweak@mozillaonline.com is not compatible with application version.
+[Child 7632] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 1128: TypeError: aAddon._installLocation is undefined
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 1128: TypeError: aAddon._installLocation is undefined
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 1128: TypeError: aAddon._installLocation is undefined
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 1128: TypeError: aAddon._installLocation is undefined
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 1128: TypeError: aAddon._installLocation is undefined
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 1128: TypeError: aAddon._installLocation is undefined
+JavaScript error: resource://gre/modules/addons/XPIInstall.jsm, line 1128: TypeError: aAddon._installLocation is undefined
+1505372582687	Marionette	INFO	Listening on port 52614
+1505372582699	Marionette	INFO	Listening on port 52614
+JavaScript warning: resource://gre/modules/commonjs/toolkit/loader.js -> resource://wx-assistant-at-mozillaonline-dot-com/wxassistant/lib/main.js, line 67: JavaScript 1.6's for-each-in loops are deprecated; consider using ES6 for-of instead
+1505372583658	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505372583704	Marionette	DEBUG	loaded listener.js
+1505372583763	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505372583874	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505372583875	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505372584975	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.youdao.com/"
+1505372585179	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://c.youdao.com/www/banner.html"
+1505372585495	Marionette	DEBUG	Received DOM event "pageshow" for "https://c.youdao.com/www/banner.html"
+1505372589485	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.youdao.com/"
+1505372592685	Marionette	INFO	New connections will no longer be accepted
+console.error: commonfix: 
+  Message: ReferenceError: reason is not defined
+  Stack:
+    exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/commonfix/lib/main.js:316:1
+unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:79:9
+unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:73:3
+onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:99:5
+observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+unload@resource://gre/modules/commonjs/toolkit/loader.js:1072:3
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Users/ybgaoa/AppData/Local/Temp/rust_mozprofile.CyIBpfCxeAO4/extensions/commonfix@mozillaonline.com.xpi!/bootstrap.js:303:5
+callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4449:11
+observe@resource://gre/modules/addons/XPIProvider.jsm:2330:15
+GeckoDriver.prototype.quit@chrome://marionette/content/driver.js:3025:3
+TaskImpl_run@resource://gre/modules/Task.jsm:321:42
+TaskImpl@resource://gre/modules/Task.jsm:279:3
+asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:391:16
+TaskImpl_run@resource://gre/modules/Task.jsm:329:15
+TaskImpl@resource://gre/modules/Task.jsm:279:3
+asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+execute@chrome://marionette/content/server.js:510:15
+onPacket@chrome://marionette/content/server.js:481:7
+_onJSONObjectReady/<@chrome://marionette/content/transport.js:480:9
+
+onette	DEBUG	Canceled page load listener because no navigation has been detected
+1505372575286	Marionette	INFO	New connections will no longer be accepted
+console.error: commonfix: 
+  Message: ReferenceError: reason is not defined
+  Stack:
+    exports.onUnload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://commonfix-at-mozillaonline-dot-com/commonfix/lib/main.js:316:1
+unload/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:79:9
+unload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:73:3
+onunload@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/unload.js:99:5
+observe@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/events.js:81:7
+unload@resource://gre/modules/commonjs/toolkit/loader.js:1072:3
+shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Users/ybgaoa/AppData/Local/Temp/rust_mozprofile.hqBAeHfwBc4U/extensions/commonfix@mozillaonline.com.xpi!/bootstrap.js:303:5
+callBootstrapMethod@resource://gre/modules/addons/XPIProvider.jsm:4449:11
+observe@resource://gre/modules/addons/XPIProvider.jsm:2330:15
+GeckoDriver.prototype.quit@chrome://marionette/content/driver.js:3025:3
+TaskImpl_run@resource://gre/modules/Task.jsm:321:42
+TaskImpl@resource://gre/modules/Task.jsm:279:3
+asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:391:16
+TaskImpl_run@resource://gre/modules/Task.jsm:329:15
+TaskImpl@resource://gre/modules/Task.jsm:279:3
+asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+execute@chrome://marionette/content/server.js:510:15
+onPacket@chrome://marionette/content/server.js:481:7
+_onJSONObjectReady/<@chrome://marionette/content/transport.js:480:9
+
