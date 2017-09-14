@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../openstack-cinder/.idea/openstack-cinder.iml" filepath="$PROJECT_DIR$/../openstack-cinder/.idea/openstack-cinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../openstack-keystone/.idea/openstack-keystone.iml" filepath="$PROJECT_DIR$/../openstack-keystone/.idea/openstack-keystone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pastry/.idea/pastry.iml" filepath="$PROJECT_DIR$/../pastry/.idea/pastry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../popcorn/.idea/popcorn.iml" filepath="$PROJECT_DIR$/../popcorn/.idea/popcorn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../python-popcornclient/.idea/python-popcornclient.iml" filepath="$PROJECT_DIR$/../python-popcornclient/.idea/python-popcornclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pythonstudy.iml" filepath="$PROJECT_DIR$/.idea/pythonstudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../web_yaml/.idea/web_yaml.iml" filepath="$PROJECT_DIR$/../web_yaml/.idea/web_yaml.iml" />
+    </modules>
+  </component>
+</project>

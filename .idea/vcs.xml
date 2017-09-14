@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../openstack-cinder" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../openstack-keystone" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../popcorn" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../python-popcornclient" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../web_yaml" vcs="Git" />
+  </component>
+</project>
