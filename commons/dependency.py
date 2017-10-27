@@ -33,7 +33,6 @@ GET_OPTIONAL = object()
 
 def get_provider(name, optional=GET_REQUIRED):
     if optional is GET_REQUIRED:
-        print optional
         return _REGISTRY[name][0]
     return _REGISTRY.get(name, (None, None))[0]
 
