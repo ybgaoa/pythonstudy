@@ -11,6 +11,6 @@ def index(request):
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^v1/s3/', include('study.s3_op.urls')),
-    # url(r'^', index),
+    url(r'^', index),
 ]
 urlpatterns = format_suffix_patterns(urlpatterns)
