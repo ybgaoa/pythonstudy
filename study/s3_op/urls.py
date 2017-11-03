@@ -7,4 +7,4 @@ urlpatterns = [
     url(r"^bucket/object/(?P<bucket>[a-z0-9-]+)/download/?$", BucketObjectDownloadView.as_view(), name="bucket_file_download"),
     url(r"^bucket/list/?$", BucketListView.as_view(), name="bucket_list"),
 ]
-# urlpatterns = format_suffix_patterns(urlpatterns)
+urlpatterns = format_suffix_patterns(urlpatterns)
